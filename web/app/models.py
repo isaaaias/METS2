@@ -20,6 +20,7 @@ class Usuario(AbstractUser):
         return self.username
     
 
+
 class Evento(models.Model):
     titulo = models.CharField(max_length=200)
     descripcion_corta = models.TextField()
